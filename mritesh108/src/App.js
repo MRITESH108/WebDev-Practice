@@ -1,9 +1,8 @@
-import logo from './logo.svg';
-
-
 import './App.css';
-import Navbar from './components/Navbar';
+import About from './components/About';
 import ChangeCase from './components/ChangeCase';
+import Navbar from './components/Navbar';
+
 
 
 
@@ -11,7 +10,15 @@ function App() {
   return (
     <>
           <Navbar title="MRITESH108" navAbout="About Us" />
-          <ChangeCase />
+          <div className="container my-3">
+              {/* <ChangeCase heading="Enter the Text here" /> */}
+              <About/>
+
+          </div>
+          
+          
+
+          
     </>
   );
 }
